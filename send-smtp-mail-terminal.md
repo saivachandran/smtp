@@ -13,6 +13,11 @@ AuthUser=rpi3abc@gmail.com
 AuthPass=testing123
 UseTLS=YES
 
+sudo apt install mailutils
+
+# sent mail
+
+echo "Here add your email body" | mail -s "Here specify your email subject" your_recepient_email@yourdomain.com
 
 # Send a one-liner like so:
 
@@ -21,3 +26,6 @@ echo "Testing...1...2...3" | ssmtp myusername@gmail.com
 # url
 
 https://unix.stackexchange.com/questions/363814/simplest-way-to-send-one-line-mail-out-via-command-line-using-gmail
+
+
+sudo apt install mailutils
