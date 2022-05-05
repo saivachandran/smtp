@@ -27,5 +27,7 @@ echo "Testing...1...2...3" | ssmtp myusername@gmail.com
 
 https://unix.stackexchange.com/questions/363814/simplest-way-to-send-one-line-mail-out-via-command-line-using-gmail
 
+https://www.digitalocean.com/community/questions/how-to-send-emails-from-a-bash-script-using-ssmtp
+
 
 sudo apt install mailutils
